@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="expenses.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1 id="h1">
+            EXPENSE MANAGMENT SYSTEM
+        </h1>
+    </div>
+    <div id="input-section">
+        <select name="" id="cetegory-select">
+            <option disabled selected value="Please select an option">Please select an option</option>
+            <option value="Food">Food</option>
+            <option value="Clothes">Clothes</option>
+            <option value="Home">Home</option>
+            <option value="Transportation">Transportation</option>
+            <option value="Education">Education</option>
+            <option value="Jewellery">Jewellery</option>
+            <option value="Cars & Bike">Cars & Bike</option>
+        </select>
+        <input type="number" placeholder="Amount" id="amount-input">
+        <input id="date-input" type="date">
+        <!-- <input type="text" placeholder="Description" id="descriptioninput"> -->
+        <button id="add-btn">Add Expense</button>
+    </div>
+
+    <div>
+        <center>
+            <h2>
+                EPENSE LIST
+            </h2>
+        </center>
+    </div>
+ 
+    <div id="expenses-list">
+        <table id="table">
+    
+        <thead>
+            <tr>
+                <th>Type</th>
+                <th>Amount</th>
+                <th>Date</th>
+                <th>Delete</th> 
+            </tr>
+        </thead>
+        <tbody id="expense-table-body">
+        </tbody>
+        <tfoot>
+    <tr>
+        <td>Total</td>
+        <td id="total-amount"></td>
+        <td></td>
+        <td></td>
+    </tr>
+        </tfoot>
+        </table>    
+    </div>
+    
+<script src="expense.js"></script>
+</body>
+</html>
