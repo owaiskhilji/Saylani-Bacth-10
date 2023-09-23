@@ -1,81 +1,94 @@
+/* #min{ */
+/* border: 2px solid black; */
+/* } */
 body{
-    background-color:rgb(51, 52, 54)
+   background-color:#042024;
+   box-sizing: border-box;
+    /* background-image:https://www.shutterstock.com/shutterstock/photos/1364081456/display_1500/stock-vector-book-and-smartphone-in-a-hand-low-poly-wireframe-online-education-blue-background-or-concept-with-1364081456.jpg; */
 }
+/* 
+/* table{
+    border:2px solid red;
+    border-radius: 20px;
+}
+td{
+    border:2px solid red;
+    border-radius: 20px;
 
+    text-align: center;
+}
+th{
+    border:2px solid red;
+    border-radius: 20px;
 
-.tbl{
-background-color: black;
-color:white;
-border: 1px solid black ;
-}
+    text-align: center;
 
-#inp{
-    width: 140px;
-border: 2px;
-background-color: black;
-color: white;
+} */
+.main{
+    color:#1baec4 ;
 }
-.ac{
-    background-color:rgb(200,122,11);
-    color:white ;
-    /* font-size: small; */
-    width: 40px;
-}
-.del{
-    background-color:rgb(200,122,11);
-    color:white ;
+.main2{
+
     /* text-align: center; */
-    /* font-size: small; */
-    width: 40px;
+    display: flex;
 }
-#id{
-    width: 40px;
-    background-color: black;
-    color: white;
+#min{
+    margin-left:250px;
+    padding: 15px;
+border: 3px solid #1baec4;
+border-radius: 40px;
+color:#1baec4 ;
 }
-#id:hover{
-    background-color: gainsboro;
-    color: black;
-    transform: 2s;
-}
-
-
-
-@media (max-width :500px){
-    .div-tbl{
-        padding-top: 80px;
-    /* text-align: center; */
-    }
+#sec{
+    margin-left:100px;
+    padding: 15px;
+    border: 3px solid #1baec4;
+    border-radius: 40px;
+    color:#1baec4 ;
     
-    table{ 
-        border: 2px solid  black;
-        width: 230px;
-        height: 260px;
-    }
-    button {
-        font-size: 4vw;
-    }
-    .ac,.del{
-        font-size: 4vw;
-        width: 49px;
-        height: 29px;
-    }
-    #id {
-        /* justify-content: center; */
-        width: 49px;
-        height: 29px;
-    }
-    .inp{
-        border: 2px solid black;
-    /* height: 200%;     */
-    }
+}
+#msec{
+    margin-left:80px;
+    padding: 15px;
+    border: 3px solid #1baec4;
+    border-radius: 40px;
+    color:#1baec4 ;
+    
+}
+#str{
+    margin-left:350px;
+    padding: 15px;
+border: 3px solid #1baec4;
+border-radius: 40px;
+/* color:#1baec4 ; */
+background-color: #1baec4 ;
+color:black ;
+font-weight: 800;
+}
+#sto{
+    padding: 15px;
+border: 3px solid #1baec4;
+border-radius: 40px;
+/* color:#1baec4 ; */
+background-color: #1baec4 ;
+color:black ;
+font-weight: 800;
+}
+#res{
+    padding: 15px;
+border: 3px solid #1baec4;
+border-radius: 40px;
+background-color: #1baec4 ;
+color:black ;
+font-weight: 800;
+
 }
 
 
 
 
-
-
-
-
-
+@media (max-width:500px){
+.stp{
+    text-align: center;
+}
+} 
