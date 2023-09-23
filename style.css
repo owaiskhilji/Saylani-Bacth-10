@@ -1,0 +1,81 @@
+body{
+    background-color:rgb(51, 52, 54)
+}
+
+
+.tbl{
+background-color: black;
+color:white;
+border: 1px solid black ;
+}
+
+#inp{
+    width: 140px;
+border: 2px;
+background-color: black;
+color: white;
+}
+.ac{
+    background-color:rgb(200,122,11);
+    color:white ;
+    /* font-size: small; */
+    width: 40px;
+}
+.del{
+    background-color:rgb(200,122,11);
+    color:white ;
+    /* text-align: center; */
+    /* font-size: small; */
+    width: 40px;
+}
+#id{
+    width: 40px;
+    background-color: black;
+    color: white;
+}
+#id:hover{
+    background-color: gainsboro;
+    color: black;
+    transform: 2s;
+}
+
+
+
+@media (max-width :500px){
+    .div-tbl{
+        padding-top: 80px;
+    /* text-align: center; */
+    }
+    
+    table{ 
+        border: 2px solid  black;
+        width: 230px;
+        height: 260px;
+    }
+    button {
+        font-size: 4vw;
+    }
+    .ac,.del{
+        font-size: 4vw;
+        width: 49px;
+        height: 29px;
+    }
+    #id {
+        /* justify-content: center; */
+        width: 49px;
+        height: 29px;
+    }
+    .inp{
+        border: 2px solid black;
+    /* height: 200%;     */
+    }
+}
+
+
+
+
+
+
+
+
+

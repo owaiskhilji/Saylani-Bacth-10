@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cal Js</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   <div class="div-tbl">
+<table text align="center" class="tbl" border="1px">
+    <tr>
+        <td colspan="4">
+    <strong>CASIO </strong>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="4">
+            <input placeholder="0000000000000000000" id="inp">
+        </td>
+    </tr>
+    <tr>
+        <td><button class="ac" onclick="ac()">AC</button></td>
+        <td ><button class="del" onclick="del()">DEL</button></td>
+        <td><button id="id" onclick="per('%')">%</button></td>
+        <td><button id="id" onclick="abc('/')">/</button></td>
+    </tr>
+    <tr>
+        <td><button id="id" onclick="abc(7)">7</button></td>
+        <td><button id="id" onclick="abc(8)">8</button></td>
+        <td><button id="id" onclick="abc(9)">9</button></td>
+        <td><button id="id" onclick="abc('*')">X</button></td>
+    </tr>
+    <tr>
+            <td><button id="id" onclick="abc(4)">4</button></td>
+        <td><button id="id" onclick="abc(5)">5</button></td>
+        <td><button id="id" onclick="abc(6)">6</button></td>
+        <td><button id="id" onclick="abc('-')">-</button></td>
+    </tr>
+    <tr>
+        <td><button id="id" onclick="abc(1)">1</button></td>
+        <td><button id="id" onclick="abc(2)">2</button></td>
+        <td><button id="id" onclick="abc(3)">3</button></td>
+        <td><button id="id" onclick="abc('+')">+</button></td>
+    </tr>
+    <tr>
+        <td><button id="id" onclick="abc(',')">,</button></td>
+        <td><button id="id" onclick="abc(0)">0</button></td>
+        <td><button id="id" onclick="abc('.')">.</button></td>
+        <td><button id="id" onclick="eq('=')">=</button></td>
+    </tr>
+    
+</table>
+
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
