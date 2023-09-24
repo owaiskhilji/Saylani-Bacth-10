@@ -1,10 +1,17 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
     }
+    body{
+        background-image: url(./222.png);
+    }
     #h1{
         text-align: center;
         font-style: normal;
         letter-spacing: -1px;
+        color: white;
+    }
+    h2{
+        color: white;
     }
     #expenses-list{
         background-color: rgb(240,240,240);
@@ -16,7 +23,7 @@
         justify-content: center;
         align-items: flex-start;
         border-radius: 10px;
-        box-shadow: 0 0 12px  black;
+        box-shadow: 0 0 12px  rgb(20, 63, 117);
         position: absolute;
         top: 60%;
         left: 50%;
@@ -30,7 +37,7 @@
     }
     td{
         text-align: center;
-         background-color: #229103;
+         background-color:#8cc4fd;
          color: rgb(255, 255,255);
     cursor: pointer;
     border: 1px solid black;
@@ -44,7 +51,7 @@
     ::placeholder, input{
     text-align: center;
     }
-    td.Food{
+    /* td.Food{
         background-color: #36105e;
     }
     td.Clothes{
@@ -64,7 +71,7 @@
     }
     td.Cars & Bike{
         background-color: #36105e;
-    }
+    } */
     #input-section{
         /* margin-left: 200%; */
         background-color: black;
@@ -74,14 +81,15 @@
         gap: 10px;
         width: 60%;
         margin-left: 19%;
-    
+        box-shadow: 0 0 12px  rgb(6, 111, 240);    
         border: 0;
         border-radius: 10px;
         
     }
+    
     /* grid-template-columns: repeat(2,auto); is input ko ek row me kitne lane h  */
      #add-btn{
-        background-color: #229103;
+        background-color: #8cc4fd;
         color: white;
         width: 12   0px;
         height: 40px;
@@ -91,11 +99,10 @@
         left : 20%;
         place-self : center;
         box-shadow: 0 0 20 black;
-    /* width:; */
     }
     #add-btn:hover{
-        background-color: #15692b;
-        transition: 2   s;
+        background-color: #4797f3;
+        /* transition: 2s; */
     }
     input, select{
         border-radius: 5px;
